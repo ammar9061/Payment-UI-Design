@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.app_container{
+    height: 590px;
+    width: 375px;
+    background-image: linear-gradient(#580e85, #9200ff);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;   
+}
+
+.top_box{
+    height: 100px;
+    background-color: #9100fb;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+} 
+
+.left_icon{
+    float: left;
+    margin-left: 30px;
+}
+
+.right_icon{
+    float: right;
+    margin-right: 30px;
+}
+
+.middle_box{
+    height: 120px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    margin-top: -60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.middle_box h1{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.middle_box h1 span{
+    font-size: 20px;
+    margin-left: 5px;
+    bottom: 18px;
+    position: relative;
+}
+
+.payment_option-btn{
+    color: white;
+    margin: 3px 30px;
+    height: 30px;
+    width: 290px;
+    background-color: #9100fd;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.card_details{
+    background: #fff;
+    color: #555;
+    margin: 7px 30px;
+    padding: 10px;
+}
+
+.card_details p{
+    font-size: 14px;
+}
+
+.card_details label{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.num_feild{
+    margin-top: 10px;
+}
+
+.date_feild{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.cvc_feild{
+    margin-top: 10px;
+    display: inline-block;
+    /* float: right; */
+}
+
+.name_feild{
+    margin-top: 10px;
+}
+
+.num_feild, .name_feild{
+    width: 290px;
+}
+
+.date_feild, .cvc_feild{
+    width: 80px;
+}
+
+.card_details input{
+    border: 1px solid #ccc;
+    height: 15px;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.card_details input::placeholder{
+    color: rgb(184, 178, 178);
+}
+
+.pay-btn{
+    width: 295px;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #9100fd;
+    border: none;
+    cursor: pointer;
+}
